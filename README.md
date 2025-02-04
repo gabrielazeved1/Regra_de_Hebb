@@ -15,11 +15,13 @@ w(t+1) = w(t) + \eta \cdot y[i] \cdot x[i]
 $$
 
 Onde:
+$$
 - \( w(t) \) é o peso atual,
 - \( w(t+1) \) é o peso ajustado,
 - \( \eta \) é a taxa de aprendizado (normalmente um valor pequeno),
 - \( y[i] \) é a saída desejada para a entrada \( i \),
 - \( x[i] \) é o valor da entrada \( i \).
+$$
 A cada iteração, os pesos são ajustados de acordo com a entrada e a saída, permitindo que a rede aprenda e ajuste as conexões de forma incremental.
 
 ## ⚙️ A Importância da Regra de Hebb no Machine Learning
