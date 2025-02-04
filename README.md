@@ -17,7 +17,7 @@ $$
 Onde:
 - \( w(t) \) é o peso atual,
 - \( w(t+1) \) é o peso ajustado,
-- \( \eta \) é a taxa de aprendizado (normalmente um valor pequeno),
+- \( n \) é a taxa de aprendizado (normalmente um valor pequeno),
 - \( y[i] \) é a saída desejada para a entrada \( i \),
 - \( x[i] \) é o valor da entrada \( i \).
 
